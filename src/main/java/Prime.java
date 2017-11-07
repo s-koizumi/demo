@@ -3,6 +3,10 @@
  */
 public class Prime {
     public boolean isPrime(int n) {
+        if (n == 2) {
+            return true;
+        }
+
         return n % 2 != 0;
     }
 
